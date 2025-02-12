@@ -33,3 +33,22 @@ function App() {
 }
 
 export default App
+
+import React from 'react';
+import Header from './components/header.js';
+import Footer from './components/footer.jsx';
+import Main from './components/main.jsx';
+import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
+
+const App = () => {
+  return (
+      <div>
+          <Header />
+          <Main />
+          <Projects  />
+          <Contact />
+          <Footer />
+      </div>
+  );
+};
