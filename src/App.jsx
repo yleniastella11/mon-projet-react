@@ -32,7 +32,6 @@ function App () {
   )
 }
 
-export default App;
 
 import React from 'react';
 import Header from './components/header.js';
@@ -53,3 +52,26 @@ const App = () => {
   );
 };
 
+import React, { useState } from 'react';
+import BlogPost from './components/blog.jsx';
+
+const App = () => {
+    const [blogs, setBlogs] = useState([
+        { id: 1, title: 'Mon premier blog', content: 'Ceci est le contenu de mon premier blog.' },
+        { id: 2, title: 'Mon deuxième blog', content: 'Ceci est le contenu de mon deuxième blog.' },
+        { id: 3, title: 'Mon troisième blog', content: 'Ceci est le contenu de mon troisième blog.' },
+        { id: 4, title: 'Mon quatrième blog', content: 'Ceci est le contenu de mon quatrième blog.' },
+        { id: 5, title: 'Mon cinquième blog', content: 'Ceci est le contenu de mon cinquième blog.' },
+        { id: 6, title: 'Mon sixième blog', content: 'Ceci est le contenu de mon sixième blog.' },
+    ]);
+
+    return (
+        <div>
+            {blogs.map(blog => (
+                <BlogPost key={blog.id} title={blog.title} content={blog.content} />
+            ))}
+        </div>
+    );
+};
+
+export default App;
