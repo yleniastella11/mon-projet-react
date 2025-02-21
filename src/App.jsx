@@ -34,7 +34,7 @@ function App () {
 
 
 import React from 'react';
-import Header from './components/header.js';
+import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
 import Main from './components/main.jsx';
 import Projects from './components/Projects.jsx';
@@ -49,6 +49,7 @@ const App = () => {
           <Main />
           <Projects />
           <Contact />
+          <BlogPost />
       </div>
   );
 };
