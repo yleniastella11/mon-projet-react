@@ -40,6 +40,7 @@ import Main from './components/main.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
 
+
 const App = () => {
   return (
       <div>
@@ -53,7 +54,7 @@ const App = () => {
 };
 
 import React, { useState } from 'react';
-import BlogPost from './components/blog.jsx';
+import BlogPost from './components/BlogPost.jsx';
 
 const App = () => {
     const [blogs, setBlogs] = useState([
