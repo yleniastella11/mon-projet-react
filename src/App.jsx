@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+function AppComponent() {
   const [count, setCount] = useState(0)
 
   return (
@@ -32,7 +32,7 @@ function App() {
   )
 }
 
-export default App
+export default AppComponent;
 
 import React from 'react';
 import Header from './components/header.js';
@@ -41,14 +41,15 @@ import Main from './components/main.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
 
-const App = () => {
+const AppComponent = () => {
   return (
       <div>
           <Header />
-          <Main />
-          <Projects  />
-          <Contact />
           <Footer />
+          <Main />
+          <Projects />
+          <Contact />
       </div>
   );
 };
+
