@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Contact from './components/Contact.jsx';
 
 const ContactForm = () => {
     const [name, setName] = useState('');

@@ -1,5 +1,6 @@
 import React from 'react';
-import './About.css'; // Si vous souhaitez ajouter des styles
+import About from './components/Header.jsx';
+import './About.css'; 
 
 const About = () => {
     return (
