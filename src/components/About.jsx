@@ -1,6 +1,5 @@
 import React from 'react';
 import About from './components/Header.jsx';
-import './About.css'; 
 
 function About () {
     return (
@@ -15,5 +14,10 @@ function About () {
         </div>
     );
 };
+
+const styles = {
+    color: 'white',
+    textAlign: 'center',
+}
 
 export default About;
