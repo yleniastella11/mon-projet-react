@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './components/Header.jsx';
-import './Header.css';
 
 function Header() {
   return (
@@ -13,6 +12,13 @@ function Header() {
       <p>Adresse : 40 rue Laure Diebold, 69009, Lyon, France</p>
     </header>
   );
+}
+
+const styles = {
+  backgroundColor: '#007bff',
+  color: 'white',
+  padding: '20px',
+  marginBottom: '20px',
 }
 
 export default Header;

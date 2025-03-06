@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Contact from './components/Contact.jsx';
 
-const ContactForm = () => {
+function ContactForm() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -51,5 +51,13 @@ const ContactForm = () => {
         </form>
     );
 };
+
+const styles = {
+    padding: '1.5 rem',
+    backgroundColor: '#689DC2',
+    color: 'white',
+    display: 'inline-block',
+    justifycontent: 'space-between',
+}
 
 export default ContactForm;

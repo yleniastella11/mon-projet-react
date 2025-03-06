@@ -2,7 +2,7 @@ import React from 'react';
 import About from './components/Header.jsx';
 import './About.css'; 
 
-const About = () => {
+function About () {
     return (
         <div className="about-container">
             <h1>À Propos</h1>
