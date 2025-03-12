@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Contact from './components/Contact.jsx';
 
-
 function ContactForm() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
