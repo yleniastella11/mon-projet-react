@@ -2,7 +2,7 @@ import React from 'react';
 
 function About () {
     return (
-        <about style={{ color: 'white', textAlign: 'center',}}>
+        <about style={{ color: 'black', margin: 'auto', width: '50%', display: 'flex', flexDirection: 'column', padding: '30px', }}>
               <div className="about-container">
             <h1>À Propos</h1>
             <p>

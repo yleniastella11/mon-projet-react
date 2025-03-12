@@ -16,7 +16,7 @@ function ContactForm() {
     };
 
     return (
-        <div style={{ padding: '1.5rem', backgroundColor: '#689DC2', color: 'white', display: 'inline-block', justifyContent: 'space-between' }}>
+        <div style={{ padding: '1.5rem', backgroundColor: '#689DC2', color: 'white', display: 'block', justifyContent: 'center', textAlign: 'center', padding: '2rem', }}>
             <h2>Me contacter</h2>
             <p>Adresse: 40 rue Laure Diebold, 69009 Lyon, France</p>
             <p>Email: john.doe@gmail.com</p>

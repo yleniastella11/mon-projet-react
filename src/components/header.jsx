@@ -3,7 +3,8 @@ import Header from './components/Header.jsx';
 
 function Header() {
   return (
-    <nav>
+    <header style={{ flexDirection: 'column', justifyContent: 'center', textAlign: 'center', padding: '2rem', margin: 'auto', }}>
+          <nav>
           <ul>
             <li>
               <Link to="/">Accueil</Link>
@@ -19,14 +20,8 @@ function Header() {
             </li>
           </ul>
         </nav>
+    </header>
   );
-}
-
-const styles = {
-  backgroundColor: '#007bff',
-  color: 'white',
-  padding: '20px',
-  marginBottom: '20px',
 }
 
 export default Header;
