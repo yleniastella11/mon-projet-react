@@ -1,9 +1,9 @@
 import React from 'react';
-import About from './components/About.jsx';
 
 function About () {
     return (
-        <div className="about-container">
+        <about style={{ color: 'white', textAlign: 'center',}}>
+              <div className="about-container">
             <h1>À Propos</h1>
             <p>
             Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'intégrateur-développeur web au CEF.
@@ -12,12 +12,8 @@ function About () {
             J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.
             </p>
         </div>
+        </about>
     );
 };
-
-const styles = {
-    color: 'white',
-    textAlign: 'center',
-}
 
 export default About;

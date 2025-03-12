@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import Contact from './components/Contact.jsx';
 
 function ContactForm() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Nom:', name);
@@ -17,7 +16,7 @@ function ContactForm() {
     };
 
     return (
-        <div>
+        <div style={{ padding: '1.5rem', backgroundColor: '#689DC2', color: 'white', display: 'inline-block', justifyContent: 'space-between' }}>
             <h2>Me contacter</h2>
             <p>Adresse: 40 rue Laure Diebold, 69009 Lyon, France</p>
             <p>Email: john.doe@gmail.com</p>
@@ -57,14 +56,6 @@ function ContactForm() {
             </form>
         </div>
     );
-}
-
-const styles = {
-    padding: '1.5 rem',
-    backgroundColor: '#689DC2',
-    color: 'white',
-    display: 'inline-block',
-    justifycontent: 'space-between',
 }
 
 export default ContactForm;
