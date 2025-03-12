@@ -11,8 +11,7 @@ function Projects() {
 
 
 const styles = {
-  display: 'block',
-  alignitems: 'center',
+  textalign: 'center',
   padding: '1rem',
   color: 'white',
 }
