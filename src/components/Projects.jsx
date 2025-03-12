@@ -13,8 +13,6 @@ function Projects() {
 const styles = {
   display: 'block',
   alignitems: 'center',
-  width: '50px',
-  height: '50px',
   padding: '1rem',
   color: 'white',
 }
