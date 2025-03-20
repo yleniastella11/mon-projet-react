@@ -11,8 +11,9 @@ const articles = [
 
 const Blog = () => {
     return (
-        <div style={{ color: '#444', width: '50%', margin: 'auto', display: 'flex', flexDirection: 'column', padding: '5rem', backgroundColor: '#EEE' }}>
+        <div style={{ color: '#444', width: '50%', margin: 'auto', display: 'flex', flexDirection: 'column', padding: '5rem', backgroundColor: '#EEE', }}>
             <h1>Mon Blog</h1>
+            <h2>Retrouvez ici quelques articles sur le développement web.</h2>
             {articles.map(article => (
                 <div key={article.id}>
                     <h2>{article.title}</h2>

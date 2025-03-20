@@ -5,9 +5,9 @@ Footer {
 }
 
 Footer p {
-    color: #444;
-    background-color: #EEE;
-    padding: 7rem;
+    color: #EEE;
+    background-color: #000000;
+    padding: 1.5rem;
     text-align: center;
 }
 
@@ -16,5 +16,5 @@ Footer img {
     align-items: center;
     width: 70px;
     height: 70px;
-    padding: 1.5rem;
+    padding: 4rem;
 }
