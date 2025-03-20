@@ -1,16 +1,16 @@
 import React from 'react';
-import Footer from './components/Footer.jsx';
-import logo1 from './assets/github.png'; 
-import logo2 from './assets/twitter.jpg'; 
-import logo3 from './assets/linkedin.png';
+import './Footer.css';
+import github from '../assets/github.png'; 
+import twitter from '../assets/twitter.jpg'; 
+import linkedin from '../assets/linkedin.png';
 
-function Footer () {
+function Footer() {
     return (
-        <footer style={{ color: '#444', textAlign: 'center', padding: '20px', backgroundColor: '#EEE', display: 'flex', flexDirection: 'column',}}>
+        <footer>
             <div>
-                <img src={logo1} alt="Logo 1-github" style={{ width: '100px', margin: '10px' }} />
-                <img src={logo2} alt="Logo 2-twitter" style={{ width: '100px', margin: '10px' }} />
-                <img src={logo3} alt="Logo 3-linkedin" style={{ width: '100px', margin: '10px' }} />
+                <img src={github} alt="Logo GitHub" />
+                <img src={twitter} alt="Logo Twitter" />
+                <img src={linkedin} alt="Logo LinkedIn" />
             </div>
             <p>© Designed by John Doe</p>
         </footer>

@@ -2,12 +2,15 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/contact">Contact</Link>
-    </nav>
+    <div style={{ display: 'block', justifyContent: 'center', textAlign: 'center', margin: 'auto', backgroundColor: '#EEE', color: '#444' }}>
+      <nav>
+        <Link to="/about">Présentation</Link>
+        <Link to="/projects">Projets</Link>
+        <Link to="/blog">Blog</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/services">Services</Link>
+      </nav>
+    </div>
   );
 }
 

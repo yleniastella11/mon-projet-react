@@ -16,12 +16,13 @@ function ContactForm() {
     };
 
     return (
-        <div style={{ padding: '2rem', backgroundColor: '#EEE', color: '#444', display: 'block', justifyContent: 'center', textAlign: 'center', width: '50%', margin: 'auto', }}>
+        <div style={{ padding: '10rem', backgroundColor: '#EEE', color: '#444', display: 'block', justifyContent: 'center', textAlign: 'center', width: '50%', margin: 'auto', }}>
             <h2>Me contacter</h2>
+            <p>Nom: John Doe</p>
             <p>Adresse: 40 rue Laure Diebold, 69009 Lyon, France</p>
             <p>Email: john.doe@gmail.com</p>
             <p>Téléphone: 0620304050</p>
-            
+           
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Nom :</label>

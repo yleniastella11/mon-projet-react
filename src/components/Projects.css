@@ -1,0 +1,27 @@
+.project-list {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: #444;
+    background-color: #EEE;
+}
+
+h3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    padding: 0.5rem;
+    color: #444;
+    background-color: #EEE;
+}
+
+p {
+    display: block;
+    text-align: center;
+    font-size: medium;
+    color: #444;
+    background-color: #EEE;
+}

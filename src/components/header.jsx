@@ -1,25 +1,16 @@
 import React from 'react';
-import Header from './components/Header.jsx';
 
-function Header() {
+const Header = () => {
   return (
-    <header style={{ flexDirection: 'column', justifyContent: 'center', textAlign: 'center', padding: '2rem', margin: 'auto', BackgroundColor: '#EEE', color: '#444', }}>
-          <nav>
-          <ul>
-            <li>
-              <Link to="/about">À propos</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projets</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
-    </header>
+    <div style={{ color: '#444', backgroundColor: '#EEE', display: 'block', justifyContent: 'center', textAlign: 'center', pading: '1.5rem', }}>
+      <header>
+        <div>
+          <h1>Bonjour, je suis John Doe</h1>
+          <h2>Développeur web full stack</h2>
+        </div>
+      </header>
+    </div>
   );
-}
+};
 
 export default Header;
-
