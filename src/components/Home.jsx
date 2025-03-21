@@ -1,13 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Home = () => {
+function Home() {
   return (
-    <div style={{ color: '#444', backgroundColor: '#EEE', display: 'block', justifyContent: 'center', textAlign: 'center' }}>
-      <h1>Bonjour, je suis John Doe</h1>
-      <h2>Développeur web full stack</h2>
-
+    <div>
+      <h1>Bienvenue sur la page d'accueil</h1>
+      <Link to="/info"> https://api.github.com/users/github-john-doe</Link>
     </div>
   );
-};
+}
 
 export default Home;
