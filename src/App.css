@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+
+nav a {
+  color: initial; 
+  transition: background-color 0.3s ease, opacity 0.3s ease; 
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.8); 
+  color: #000; 
+}
+
+.service-icon {
+  transition: color 0.3s ease; 
+}
+
+.service-icon:hover {
+  color: #cde1f8; 
+}
+
+.back-to-top {
+  background-color: initial; 
+  transition: background-color 0.3s ease; 
+}
+
+.back-to-top:hover {
+  background-color: #298eff; 
+}

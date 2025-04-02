@@ -3,13 +3,13 @@ import './Services.css';
 
 const Services = () => {
   const servicesList = [
-    { id: 1, title: 'UX DESIGN',  },
-    { id: 2, title: 'DÉVELOPPEMENT WEB', },
-    { id: 3, title: 'RÉFÉRENCEMENT', },
+    { id: 1, title: 'UX DESIGN', description: 'Création d’interfaces utilisateur intuitives et esthétiques.' },
+    { id: 2, title: 'DÉVELOPPEMENT WEB', description: 'Développement de sites web performants et responsives.' },
+    { id: 3, title: 'RÉFÉRENCEMENT', description: 'Optimisation pour les moteurs de recherche afin d’améliorer la visibilité.' },
   ];
 
   return (
-    <div>
+    <div className="service-icon">
       <h2>Mes Services</h2>
       <h3>Voici les prestations sur lesquelles je peux intervenir</h3>
       <div className="services-container">
@@ -25,4 +25,3 @@ const Services = () => {
 };
 
 export default Services;
- 
