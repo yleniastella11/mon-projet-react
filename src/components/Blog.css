@@ -1,0 +1,22 @@
+h1 {
+    color: #1e1e1e;
+    font-size: larger;
+}
+
+h2 {
+    color: #1e1e1e;
+    font-size: medium;
+}
+
+.blog-list {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: #444;
+}
+
+.blog-list h3 {
+    background-color: #EEE;
+}

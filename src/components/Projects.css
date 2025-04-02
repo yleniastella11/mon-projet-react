@@ -5,10 +5,9 @@
     width: 50%;
     margin: auto;
     color: #444;
-    background-color: #EEE;
 }
 
-h3{
+.project-list h3{
     display: block;
     justify-content: center;
     text-align: center;
@@ -23,5 +22,4 @@ p {
     text-align: center;
     font-size: medium;
     color: #444;
-    background-color: #EEE;
 }

@@ -1,0 +1,13 @@
+.contact {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.contact h2 {
+    color: #444;
+    background-color: #EEE;
+}
+

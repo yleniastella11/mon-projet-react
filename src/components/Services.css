@@ -3,7 +3,6 @@
     flex-direction: column;
     gap: 20px;
     color: #444;
-    background-color: #EEE;
   }
   
   .service-card {
@@ -15,4 +14,8 @@
     text-align: center;
     font-size: larger;
     color: #1e1e1e;
+  }
+
+  h4 {
+    background-color: #EEE;
   }

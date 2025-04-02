@@ -4,6 +4,14 @@ Footer {
     text-align: center;
 }
 
+Footer img {
+    display: inline-block;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    padding: 5rem;
+}
+
 Footer p {
     color: #EEE;
     background-color: #000000;
@@ -11,10 +19,3 @@ Footer p {
     text-align: center;
 }
 
-Footer img {
-    display: inline-block;
-    align-items: center;
-    width: 70px;
-    height: 70px;
-    padding: 4rem;
-}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Contact.css';
 
 function ContactForm() {
     const [name, setName] = useState('');
@@ -16,7 +17,7 @@ function ContactForm() {
     };
 
     return (
-        <div style={{ padding: '10rem', backgroundColor: '#EEE', color: '#444', display: 'block', justifyContent: 'center', textAlign: 'center', width: '50%', margin: 'auto', }}>
+        <div classname="contact">
             <h2>Me contacter</h2>
             <p>Nom: John Doe</p>
             <p>Adresse: 40 rue Laure Diebold, 69009 Lyon, France</p>
