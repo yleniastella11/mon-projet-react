@@ -10,8 +10,7 @@ const Services = () => {
 
   return (
     <div className="service-icon">
-      <h2>Mes Services</h2>
-      <h3>Voici les prestations sur lesquelles je peux intervenir</h3>
+      <h2>Voici les prestations sur lesquelles je peux intervenir</h2>
       <div className="services-container">
         {servicesList.map(service => (
           <div key={service.id} className="service-card">

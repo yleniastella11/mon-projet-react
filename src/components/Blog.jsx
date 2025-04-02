@@ -1,4 +1,5 @@
 import React from 'react';
+import './Blog.css';
 
 const articles = [
     { id: 1, title: 'Coder son site en HTML/CSS', content: 'publié le 22 août 2022' },
@@ -12,7 +13,6 @@ const articles = [
 const Blog = () => {
     return (
         <div classname="blog-list">
-            <h1>Mon Blog</h1>
             <h2>Retrouvez ici quelques articles sur le développement web.</h2>
             {articles.map(article => (
                 <div key={article.id}>

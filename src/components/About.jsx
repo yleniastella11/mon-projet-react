@@ -4,7 +4,7 @@ import './About.css';
 function About () {
     return (
     <div className="about-container">
-        <h1>Présentation</h1>
+        <h2>Présentation de John Doe</h2>
         <p>
             Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'intégrateur-développeur web au CEF.
             Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du développement web.

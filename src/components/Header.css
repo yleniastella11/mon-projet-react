@@ -2,15 +2,14 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #0d6efd;
 }
 
 header h1 {
     color: #1e1e1e;
-    font-size: larger;
+    background-color: #0d6efd;
 }
 
 header h2 {
     color: #1e1e1e;
-    font-size: medium;
+    background-color: #0d6efd;
 }
