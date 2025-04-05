@@ -1,5 +1,6 @@
 import React from "react";
 import './Projects.css';
+import fond from '../assets/fond.png';
 
 function ProjectsComponent() {
     const projets = [
@@ -10,8 +11,11 @@ function ProjectsComponent() {
 
     console.log("Liste des projets :", projets);
 
+
+
     return (
         <div className="project-list">
+            <img src={fond} alt="image de fond" />
             {projets.map((projet, index) => {
                 console.log(`Projet ${index + 1}:`, projet);
                 return (

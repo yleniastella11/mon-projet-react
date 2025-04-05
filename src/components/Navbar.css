@@ -1,5 +1,12 @@
 .menu {
     color: #EEE;
-    padding: 1rem;
-    text-align: center;
+    text-align: right;
+    height: auto;
+    background-color: #000000;
+}
+
+.menu h1 {
+    color: #EEE;
+    text-align: left;
+    font-size: medium;
 }
