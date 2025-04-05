@@ -2,17 +2,16 @@
     display: block;
     justify-content: center;
     text-align: center;
-    width: 90%;
-    margin: auto;
+    width: 100%; 
+    margin: auto; 
     color: #444;
 }
 
-.project-list h3{
+.project-list h3 {
     display: block;
     justify-content: center;
     text-align: center;
     font-size: x-large;
-    padding: 0.5rem;
     color: #1e1e1e;
     background-color: #EEE;
 }
@@ -25,7 +24,9 @@ p {
 }
 
 img {
-    width: 90%;
-    height: auto;
-    padding: 5rem;
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0; 
 }

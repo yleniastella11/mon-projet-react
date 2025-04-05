@@ -1,4 +1,5 @@
 import React from 'react';
+import fond from '../assets/fond.png';
 import './Blog.css';
 
 const articles = [
@@ -13,6 +14,7 @@ const articles = [
 const Blog = () => {
     return (
         <div classname="blog-list">
+            <img src={fond} alt="image de fond" />
             <h2>Retrouvez ici quelques articles sur le développement web.</h2>
             {articles.map(article => (
                 <div key={article.id}>

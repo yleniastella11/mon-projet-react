@@ -1,5 +1,6 @@
 import React from 'react';
 import './Services.css';
+import fond from '../assets/fond.png'; // Assurez-vous que le chemin est correct
 
 const Services = () => {
   const servicesList = [
@@ -10,6 +11,7 @@ const Services = () => {
 
   return (
     <div className="service-icon">
+      <img src={fond} alt="image de fond" />
       <h2>Voici les prestations sur lesquelles je peux intervenir</h2>
       <div className="services-container">
         {servicesList.map(service => (

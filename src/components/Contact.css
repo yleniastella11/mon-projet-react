@@ -1,9 +1,8 @@
 .contact {
     display: block;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
     width: 50%;
-    margin: auto;
 }
 
 contact h2 {
