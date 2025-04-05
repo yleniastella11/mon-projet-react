@@ -9,23 +9,20 @@ function ProjectsComponent() {
         { title: 'Espace bien-être', description: 'Site vitrine pour un praticien de bien-être', technos: 'HTML/CSS' },
     ];
 
-    console.log("Liste des projets :", projets);
-
-
-
     return (
         <div className="project-list">
             <img src={fond} alt="image de fond" />
-            {projets.map((projet, index) => {
-                console.log(`Projet ${index + 1}:`, projet);
-                return (
+            <h2 className="project-title">Mes Projets</h2>
+            <div className="project-items">
+                {projets.map((projet, index) => (
                     <div key={index} className="project-item">
                         <h3>{projet.title}</h3>
                         <p>{projet.description}</p>
                         <p><strong>Technologies utilisées :</strong> {projet.technos}</p>
+                        <p><a href="#">Voir</a></p>
                     </div>
-                );
-            })}
+                ))}
+            </div>
         </div>
     );
 }

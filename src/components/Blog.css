@@ -1,25 +1,22 @@
-h2 {
-    color: #1e1e1e;
-    font-size: medium;
-}
-
 .blog-list {
-    display: block;
-    justify-content: center;
     text-align: center;
-    width: 50%;
-    margin: auto;
-    color: #444;
 }
 
-h3 {
-    background-color: #EEE;
+.background-image {
+    width: 100%;
+    height: auto; /* Ajuste la hauteur automatiquement */
 }
 
-img {
-    width: 100%; 
-    height: auto; 
-    object-fit: cover; 
-    display: block; 
-    margin: 0; 
+.articles-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux articles de passer à la ligne */
+    justify-content: center; /* Centre les colonnes */
+}
+
+.blog-item {
+    width: 45%; /* Ajustez la largeur pour deux colonnes */
+    margin: 10px; /* Espace entre les articles */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optionnel : ajout d'une ombre */
+    padding: 10px; /* Optionnel : ajout de padding */
+    border-radius: 5px; /* Optionnel : coins arrondis */
 }

@@ -1,32 +1,26 @@
 .project-list {
-    display: block;
-    justify-content: center;
-    text-align: center;
-    width: 100%; 
-    margin: auto; 
-    color: #444;
+    text-align: center; /* Centrer le contenu */
 }
 
-.project-list h3 {
-    display: block;
-    justify-content: center;
-    text-align: center;
-    font-size: x-large;
-    color: #1e1e1e;
-    background-color: #EEE;
+.project-list img {
+    width: 100%; /* L'image prend toute la largeur */
+    height: auto; /* Hauteur automatique pour garder les proportions */
 }
 
-p {
-    display: block;
-    text-align: center;
-    font-size: medium;
-    color: #444;
+.project-title {
+    margin-top: 20px; /* Espacement au-dessus du titre */
+    font-size: 24px; /* Taille de police pour le titre */
 }
 
-img {
-    width: 100%; 
-    height: auto; 
-    object-fit: cover; 
-    display: block; 
-    margin: 0; 
+.project-items {
+    display: flex; /* Utiliser Flexbox pour aligner les projets */
+    justify-content: space-around; /* Espacement entre les projets */
+    margin-top: 20px; /* Espacement au-dessus des projets */
+}
+
+.project-item {
+    width: 30%; /* Largeur de chaque projet */
+    border: 1px solid #ccc; /* Bordure pour chaque projet */
+    padding: 10px; /* Espacement interne */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
 }

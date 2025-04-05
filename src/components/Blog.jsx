@@ -13,15 +13,18 @@ const articles = [
 
 const Blog = () => {
     return (
-        <div classname="blog-list">
-            <img src={fond} alt="image de fond" />
+        <div className="blog-list">
+            <img src={fond} alt="image de fond" className="background-image" />
             <h2>Retrouvez ici quelques articles sur le développement web.</h2>
-            {articles.map(article => (
-                <div key={article.id}>
-                    <h3>{article.title}</h3>
-                    <p>{article.content}</p>
-                </div>
-            ))}
+            <div className="articles-container">
+                {articles.map(article => (
+                    <div key={article.id} className="blog-item">
+                        <h3>{article.title}</h3>
+                        <p>{article.content}</p>
+                        <a href={`/article/${article.id}`} className="lire">Lire</a>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };

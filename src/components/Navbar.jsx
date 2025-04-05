@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="menu">
       <h1>John Doe</h1>
-        <Link to="/accueil">Accueil</Link>
+        <Link to="/presentation">Présentation</Link>
         <Link to="/projects">Projets</Link>
         <Link to="/blog">Blog</Link>
         <Link to="/contact">Contact</Link>
