@@ -1,26 +1,25 @@
 .project-list {
-    text-align: center; /* Centrer le contenu */
+    text-align: center; 
 }
 
 .project-list img {
-    width: 100%; /* L'image prend toute la largeur */
-    height: auto; /* Hauteur automatique pour garder les proportions */
+    width: 100%; 
+    height: auto; 
 }
 
 .project-title {
-    margin-top: 20px; /* Espacement au-dessus du titre */
-    font-size: 24px; /* Taille de police pour le titre */
+    font-size: 24px; 
 }
-
 .project-items {
-    display: flex; /* Utiliser Flexbox pour aligner les projets */
-    justify-content: space-around; /* Espacement entre les projets */
-    margin-top: 20px; /* Espacement au-dessus des projets */
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 20px; 
 }
 
 .project-item {
-    width: 30%; /* Largeur de chaque projet */
-    border: 1px solid #ccc; /* Bordure pour chaque projet */
-    padding: 10px; /* Espacement interne */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+    width: 30%; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    background-color: #EEE; 
 }

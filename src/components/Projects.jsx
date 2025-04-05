@@ -11,7 +11,6 @@ function ProjectsComponent() {
 
     return (
         <div className="project-list">
-            <img src={fond} alt="image de fond" />
             <h2 className="project-title">Mes Projets</h2>
             <div className="project-items">
                 {projets.map((projet, index) => (

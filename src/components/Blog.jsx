@@ -14,7 +14,6 @@ const articles = [
 const Blog = () => {
     return (
         <div className="blog-list">
-            <img src={fond} alt="image de fond" className="background-image" />
             <h2>Retrouvez ici quelques articles sur le développement web.</h2>
             <div className="articles-container">
                 {articles.map(article => (

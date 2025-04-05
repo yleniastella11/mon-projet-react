@@ -1,26 +1,28 @@
 .service-icon {
-  text-align: center; /* Centre le texte */
-  position: relative; /* Pour positionner l'image de fond si nécessaire */
+  text-align: center; 
+  position: relative; 
 }
 
 .service-icon img {
-  width: 100%; /* L'image prend toute la largeur du conteneur */
-  height: auto; /* Ajuste la hauteur automatiquement */
+  width: 100%; 
+  height: auto; 
 }
 
 .services-container {
-  display: flex; /* Utilise Flexbox pour aligner les cartes de services */
-  justify-content: center; /* Centre les cartes horizontalement */
-  flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si nécessaire */
-  margin-top: 20px; /* Espacement au-dessus des cartes */
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin-top: 20px; 
 }
 
 .service-card {
-  background-color: #f9f9f9; /* Couleur de fond des cartes */
-  border: 1px solid #ddd; /* Bordure des cartes */
-  border-radius: 8px; /* Coins arrondis */
-  padding: 20px; /* Espacement interne */
-  margin: 10px; /* Espacement entre les cartes */
-  width: 200px; /* Largeur fixe pour les cartes */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 20px; 
+  margin: 10px; 
+  width: 200px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  background-color: #EEE; 
+
 }
