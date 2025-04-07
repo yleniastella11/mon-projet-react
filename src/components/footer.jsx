@@ -8,13 +8,17 @@ function Footer() {
     return (
         <footer>
             <div className="footer-content">
-                <div className="logos">
+                <a href="https://api.github.com/users/github-john-doe" target="_blank" rel="noopener noreferrer">
                     <img src={github} alt="Logo GitHub" />
+                </a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                     <img src={twitter} alt="Logo Twitter" />
+                </a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} alt="Logo LinkedIn" />
-                </div>
-                <p>© Designed by John Doe</p>
+                </a>
             </div>
+            <p>© Designed by John Doe</p>
         </footer>
     );
 };
