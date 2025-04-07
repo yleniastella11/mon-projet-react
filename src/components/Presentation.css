@@ -1,6 +1,10 @@
-.content-container {
+.content-container h3 {
+    background-color: #EEE;
     color: #1e1e1e;
+}
+
+.content-container {
+    color: #444;
     padding: 20px; 
     text-align: center; 
-    background-color: #EEE;
 }

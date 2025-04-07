@@ -9,7 +9,6 @@ function Home() {
       <div className="title-container">
         <h1>Bonjour, je suis John Doe</h1>
         <h2>Développeur web full stack</h2>
-        <Link to="/info">https://api.github.com/users/github-john-doe</Link>
       </div>
     </div>
   );
