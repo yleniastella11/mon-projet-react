@@ -1,10 +1,12 @@
 import React from 'react';
 import accueil from '../assets/accueil.jpeg';
+import competences from '../assets/competences.png';
 import './Presentation.css';
 
 function About() {
     return (
-            <div className="content-container">
+        <div className="content-container">
+            <div className="presentation-container">
                 <h3>Présentation de John Doe</h3>
                 <p>
                     Passionné par l'informatique et les nouvelles technologies, 
@@ -22,6 +24,8 @@ function About() {
                     j'écris et je respecte les bonnes pratiques du web.
                 </p>
             </div>
+            <img src={competences} alt="Compétences" className="competences-image" />
+        </div>
     );
 }
 

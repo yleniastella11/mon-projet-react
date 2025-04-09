@@ -1,10 +1,15 @@
-.content-container h3 {
-    background-color: #EEE;
-    color: #1e1e1e;
+.content-container {
+    display: flex;
+    align-items: flex-start; 
 }
 
-.content-container {
+.presentation-container {
+    flex: 1; 
+    margin-right: 20px; 
     color: #444;
-    padding: 20px; 
-    text-align: center; 
+}
+
+.competences-image {
+    max-width: 80%; 
+    height: auto; 
 }

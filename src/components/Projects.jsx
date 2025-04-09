@@ -1,6 +1,5 @@
 import React from "react";
 import './Projects.css';
-import fond from '../assets/fond.png';
 
 function ProjectsComponent() {
     const projets = [
