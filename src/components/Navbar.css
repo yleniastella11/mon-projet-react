@@ -1,12 +1,4 @@
-.menu {
-    color: #EEE;
-    text-align: right;
-    height: auto;
+navbar {
+    color: white;
     background-color: #000000;
-}
-
-.menu h1 {
-    color: #EEE;
-    text-align: left;
-    font-size: medium;
 }

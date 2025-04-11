@@ -6,6 +6,7 @@ import coderenresponsive from '../assets/coderenresponsive.png';
 import TR from '../assets/TR.png';
 import apprendre from '../assets/apprendre.png';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Blog.css';
 
 const articles = [
@@ -19,15 +20,19 @@ const articles = [
 
 const Blog = () => {
     return (
-        <div className="blog-list">
-            <h2>Retrouvez ici quelques articles sur le développement web.</h2>
-            <div className="articles-container">
+        <div className="container mt-5">
+            <h2 className="text-center mb-4">Retrouvez ici quelques articles sur le développement web.</h2>
+            <div className="row">
                 {articles.map(article => (
-                    <div key={article.id} className="blog-item">
-                        <img src={article.image} alt={article.title} className="article-image" />
-                        <h3>{article.title}</h3>
-                        <p>{article.content}</p>
-                        <a href={`/article/${article.id}`} className="lire">Lire</a>
+                    <div key={article.id} className="col-md-4 mb-4">
+                        <div className="card">
+                            <img src={article.image} alt={article.title} className="card-img-top" />
+                            <div className="card-body">
+                                <h3 className="card-title">{article.title}</h3>
+                                <p className="card-text">{article.content}</p>
+                                <a href={`/article/${article.id}`} className="btn btn-primary">Lire</a>
+                            </div>
+                        </div>
                     </div>
                 ))}
             </div>

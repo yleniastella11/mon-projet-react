@@ -1,28 +1,37 @@
-.service-icon {
-  text-align: center; 
-  position: relative; 
+.container {
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
-.service-icon img {
-  width: 100%; 
-  height: auto; 
+h2 {
+  color: #1e1e1e; 
 }
 
-.services-container {
-  display: flex; 
-  justify-content: center; 
-  flex-wrap: wrap; 
-  margin-top: 20px; 
-}
-
-.service-card {
-  background-color: #f9f9f9; 
-  border: 1px solid #ddd; 
+.card {
+  border: 1px solid #e0e0e0; 
   border-radius: 8px; 
-  padding: 20px; 
-  margin: 10px; 
-  width: 200px; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  background-color: #EEE; 
+  transition: transform 0.2s; 
+}
 
+.card:hover {
+  transform: scale(1.05); 
+}
+
+.card-title {
+  font-size: 1.5rem; 
+  color: #0d6efd; 
+}
+
+.card-text {
+  font-size: 1rem; 
+  color: #444; 
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem; 
+}
+
+.mt-5 {
+  margin-top: 3rem; 
 }

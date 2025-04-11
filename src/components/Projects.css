@@ -1,25 +1,37 @@
-.project-list {
-    text-align: center; 
+.container {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 8px; 
 }
 
-.project-list img {
-    width: 100%; 
-    height: auto; 
+h2 {
+    color: #1e1e1e; 
 }
 
-.project-title {
-    font-size: 24px; 
-}
-.project-items {
-    display: flex; 
-    justify-content: space-around; 
-    margin-top: 20px; 
+.card {
+    border: 1px solid #dee2e6; 
+    border-radius: 8px; 
+    transition: transform 0.2s; 
 }
 
-.project-item {
-    width: 30%; 
-    border: 1px solid #ccc; 
-    padding: 10px; 
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card-title {
+    font-size: 1.5rem; 
+    color: #444; 
+}
+
+.btn {
+    background-color: #0d6efd; 
+    border: none; 
+}
+
+.btn:hover {
     background-color: #EEE; 
+}
+
+.card-text {
+    color: #444; 
 }

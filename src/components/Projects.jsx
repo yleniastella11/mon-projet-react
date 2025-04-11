@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './Projects.css';
 import freshfood from '../assets/freshfood.png';
 import RA from '../assets/RA.png';
@@ -12,16 +13,20 @@ function ProjectsComponent() {
     ];
 
     return (
-        <div className="project-list">
-            <h2 className="project-title">Mes Projets</h2>
-            <div className="project-items">
+        <div className="container mt-5"> 
+            <h2 className="text-center mb-4">Mes Projets</h2> 
+            <div className="row"> 
                 {projets.map((projet, index) => (
-                    <div key={index} className="project-item">
-                        <img src={projet.image} alt={projet.title} className="project-image" />
-                        <h3>{projet.title}</h3>
-                        <p>{projet.description}</p>
-                        <p><strong>Technologies utilisées :</strong> {projet.technos}</p>
-                        <p><a href="#">Voir</a></p>
+                    <div key={index} className="col-md-4 mb-4"> 
+                        <div className="card"> 
+                            <img src={projet.image} alt={projet.title} className="card-img-top" /> 
+                            <div className="card-body"> 
+                                <h3 className="card-title">{projet.title}</h3> 
+                                <p className="card-text">{projet.description}</p> 
+                                <p><strong>Technologies utilisées :</strong> {projet.technos}</p> 
+                                <a href="#" className="btn btn-primary">Voir</a> 
+                            </div>
+                        </div>
                     </div>
                 ))}
             </div>

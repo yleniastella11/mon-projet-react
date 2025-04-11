@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './Services.css';
 
 const Services = () => {
@@ -9,13 +10,17 @@ const Services = () => {
   ];
 
   return (
-    <div className="service-icon">
-      <h2>Voici les prestations sur lesquelles je peux intervenir</h2>
-      <div className="services-container">
+    <div className="container mt-5">
+      <h2 className="text-center mb-4">Voici les prestations sur lesquelles je peux intervenir</h2>
+      <div className="row">
         {servicesList.map(service => (
-          <div key={service.id} className="service-card">
-            <h4>{service.title}</h4>
-            <p>{service.description}</p>
+          <div key={service.id} className="col-md-4 mb-4">
+            <div className="card">
+              <div className="card-body">
+                <h4 className="card-title">{service.title}</h4>
+                <p className="card-text">{service.description}</p>
+              </div>
+            </div>
           </div>
         ))}
       </div>
