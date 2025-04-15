@@ -17,8 +17,8 @@ function ProjectsComponent() {
             <h2 className="text-center mb-4">Mes Projets</h2> 
             <div className="row"> 
                 {projets.map((projet, index) => (
-                    <div key={index} className="col-md-4 mb-4"> 
-                        <div className="card"> 
+                    <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4"> 
+                        <div className="card h-100"> 
                             <img src={projet.image} alt={projet.title} className="card-img-top" /> 
                             <div className="card-body"> 
                                 <h3 className="card-title">{projet.title}</h3> 

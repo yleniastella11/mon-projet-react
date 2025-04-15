@@ -8,7 +8,7 @@ function About() {
     return (
         <div className="container mt-5"> 
             <div className="row"> 
-                <div className="col-md-6"> 
+                <div className="col-lg-6 col-md-12"> 
                     <h3 className="text-center">Présentation de John Doe</h3> 
                     <p>
                         Passionné par l'informatique et les nouvelles technologies, 
@@ -26,7 +26,7 @@ function About() {
                         j'écris et je respecte les bonnes pratiques du web.
                     </p>
                 </div>
-                <div className="col-md-6"> 
+                <div className="col-lg-6 col-md-12"> 
                     <img src={competences} alt="Compétences" className="img-fluid mt-4" /> 
                 </div>
             </div>

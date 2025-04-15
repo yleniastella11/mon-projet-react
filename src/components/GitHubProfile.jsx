@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const GithubProfile = () => {
   const [profile, setProfile] = useState(null);
@@ -19,17 +20,19 @@ const GithubProfile = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleClick}>Afficher le Profil GitHub</button>
+    <div className="container mt-5">
+      <button onClick={handleClick} className="btn btn-primary mb-4">Afficher le Profil GitHub</button>
       {profile && (
-        <div>
-          <h2>{profile.name}</h2>
-          <img src={profile.avatar_url} alt={`${profile.name}'s avatar`} />
-          <p>{profile.bio}</p>
-          <p>Followers: {profile.followers}</p>
-          <p>Following: {profile.following}</p>
-          <p>Public Repos: {profile.public_repos}</p>
-          <a href={profile.html_url} target="_blank" rel="noopener noreferrer">Voir le Profil GitHub</a>
+        <div className="card text-center">
+          <img src={profile.avatar_url} alt={`${profile.name}'s avatar`} className="card-img-top rounded-circle mx-auto" style={{ width: '150px' }} />
+          <div className="card-body">
+            <h2 className="card-title">{profile.name}</h2>
+            <p className="card-text">{profile.bio}</p>
+            <p>Followers: {profile.followers}</p>
+            <p>Following: {profile.following}</p>
+            <p>Public Repos: {profile.public_repos}</p>
+            <a href={profile.html_url} target="_blank" rel="noopener noreferrer" className="btn btn-link">Voir le Profil GitHub</a>
+          </div>
         </div>
       )}
     </div>

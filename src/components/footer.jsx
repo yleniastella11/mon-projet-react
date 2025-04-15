@@ -48,7 +48,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="text-center p-3 bg-dark">
+            <div className="text-center p-3 bg-dark text-white">
                 © Designed by John Doe
             </div>
         </footer>

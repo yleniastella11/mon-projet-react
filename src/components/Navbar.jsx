@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
-
 import './Navbar.css';
 
 function Navbar() {
@@ -12,7 +10,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto"> 
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/presentation">Présentation</Link>
             </li>
@@ -29,7 +27,7 @@ function Navbar() {
               <Link className="nav-link" to="/services">Services</Link>
             </li>
             <li className="nav-item">
-            <Link className="nav-link" to="/githubprofile">GitHubProfile</Link>
+              <Link className="nav-link" to="/githubprofile">GitHubProfile</Link>
             </li>
           </ul>
         </div>

@@ -24,7 +24,7 @@ const Blog = () => {
             <h2 className="text-center mb-4">Retrouvez ici quelques articles sur le développement web.</h2>
             <div className="row">
                 {articles.map(article => (
-                    <div key={article.id} className="col-md-4 mb-4">
+                    <div key={article.id} className="col-lg-4 col-md-6 col-sm-12 mb-4">
                         <div className="card">
                             <img src={article.image} alt={article.title} className="card-img-top" />
                             <div className="card-body">
