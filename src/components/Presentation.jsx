@@ -1,5 +1,4 @@
 import React from 'react';
-import accueil from '../assets/accueil.jpeg';
 import competences from '../assets/competences.png';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './Presentation.css';

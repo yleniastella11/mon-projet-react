@@ -1,33 +1,14 @@
-.container {
-    max-width: 1200px; 
-    margin: 0 auto; 
-    padding: 20px; 
-}
-
 h3 {
-    color: #1e1e1e; 
-    margin-bottom: 20px; 
+    margin-bottom: 20px; /* Espace en bas du titre */
+    font-weight: bold; /* Met en gras le titre */
 }
 
 p {
-    color: #444; 
-    line-height: 1.6; 
-    margin-bottom: 15px; 
+    line-height: 1.6; /* Améliore la lisibilité du texte */
+    margin-bottom: 15px; /* Espace en bas des paragraphes */
 }
 
 .img-fluid {
-    width: 900px; 
-    height: auto; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-}
-
-.mt-4 {
-    margin-top: 1.5rem; 
-}
-
-.col-md-6 {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
+    border-radius: 8px; /* Ajoute des coins arrondis à l'image */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre à l'image */
 }

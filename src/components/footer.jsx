@@ -3,6 +3,7 @@ import './Footer.css';
 import github from '../assets/github.jpeg'; 
 import twitter from '../assets/twitter.jpg'; 
 import linkedin from '../assets/linkedin.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {
     return (

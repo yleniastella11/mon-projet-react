@@ -1,63 +1,22 @@
-footer {
-    padding: 20px 0; 
-}
-
-.footer-content {
-    max-width: 1200px; 
-    margin: 0 auto; 
-}
-
-.footer-column {
-    margin-bottom: 20px; 
-    background-color: #EEE;
-    color: #1e1e1e;
-}
-
-.footer-column h3 {
-    font-size: 1.5rem; 
-    margin-bottom: 15px; 
-}
-
-.footer-column ul {
-    list-style-type: none; 
-    padding: 0; 
-}
-
-.footer-column li {
-    margin-bottom: 10px; 
-    background-color: #EEE;
-}
-
-.footer-column a {
-    text-decoration: none; 
-    transition: color 0.3s; 
-}
-
-.footer-column a:hover {
-    color: white; 
-}
-
 .social-media {
-    margin-top: 15px; 
+    display: flex;
+    justify-content: center; /* Centre les icônes sociales */
+    margin-top: 10px; /* Ajoute un espace au-dessus des icônes */
 }
 
 .social-icon {
-    width: 30px; 
-    height: auto; 
-    margin: 0 10px; 
-    transition: transform 0.3s; 
+    width: 30px; /* Largeur des icônes sociales */
+    height: 30px; /* Hauteur des icônes sociales */
+    margin: 0 10px; /* Espace entre les icônes */
+    transition: transform 0.2s; /* Ajoute une transition pour l'effet de survol */
 }
 
 .social-icon:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1); /* Agrandit l'icône au survol */
 }
 
-
-footer .text-center {
-    color: white; 
-    background-color: #000000;
-    padding: 10px 0; 
-    font-size: 0.9rem; 
+h3 {
+    margin-bottom: 15px; /* Espace en bas des titres */
 }
 
 
