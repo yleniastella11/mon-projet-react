@@ -20,21 +20,23 @@ const GithubProfile = () => {
   };
 
   return (
-    <div className="container mt-5">
-      <button onClick={handleClick} className="btn btn-primary mb-4">Afficher le Profil GitHub</button>
-      {profile && (
-        <div className="card text-center">
-          <img src={profile.avatar_url} alt={`${profile.name}'s avatar`} className="card-img-top rounded-circle mx-auto" style={{ width: '150px' }} />
-          <div className="card-body">
-            <h2 className="card-title">{profile.name}</h2>
-            <p className="card-text">{profile.bio}</p>
-            <p>Followers: {profile.followers}</p>
-            <p>Following: {profile.following}</p>
-            <p>Public Repos: {profile.public_repos}</p>
-            <a href={profile.html_url} target="_blank" rel="noopener noreferrer" className="btn btn-link">Voir le Profil GitHub</a>
+    <div className="container mt-5 d-flex justify-content-center">
+      <div className="text-center">
+        <button onClick={handleClick} className="btn btn-primary mb-4">Afficher le Profil GitHub</button>
+        {profile && (
+          <div className="card mx-auto" style={{ width: '18rem' }}>
+            <img src={profile.avatar_url} alt={`${profile.name}'s avatar`} className="card-img-top rounded-circle mx-auto" style={{ width: '150px' }} />
+            <div className="card-body">
+              <h2 className="card-title">{profile.name}</h2>
+              <p className="card-text">{profile.bio}</p>
+              <p>Followers: {profile.followers}</p>
+              <p>Following: {profile.following}</p>
+              <p>Public Repos: {profile.public_repos}</p>
+              <a href={profile.html_url} target="_blank" rel="noopener noreferrer" className="btn btn-link">Voir le Profil GitHub</a>
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
