@@ -1,20 +1,66 @@
+/* Image bandeau en haut */
+.banner-image img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Section principale */
+.projects-section {
+    background-color: #f6f6f6;
+    padding: 40px 0;
+}
+
+/* Titres */
+.projects-section h2 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.projects-section hr {
+    width: 60px;
+    border-top: 3px solid #337aff;
+    margin: 20px auto;
+}
+
+/* Cartes */
 .card {
-    transition: transform 0.2s; /* Ajoute une transition pour l'effet de survol */
+    transition: transform 0.2s;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .card:hover {
-    transform: scale(1.05); /* Agrandit la carte au survol */
+    transform: scale(1.05);
 }
 
 .card-img-top {
-    height: 200px; /* Fixe une hauteur pour les images */
-    object-fit: cover; /* Couvre le conteneur tout en gardant les proportions */
-}
-
-h2 {
-    font-weight: bold; /* Met en gras le titre des projets */
+    height: 200px;
+    object-fit: cover;
 }
 
 .card-body {
-    text-align: center; /* Centre le texte dans le corps de la carte */
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Bouton */
+.btn-outline-primary {
+    border-color: #337aff;
+    color: #337aff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #337aff;
+    color: white;
 }

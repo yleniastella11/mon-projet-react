@@ -1,26 +1,49 @@
+/* Image bandeau */
+.banner-image img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Section */
+.services-section {
+  background-color: #f6f6f6;
+  padding: 40px 0;
+}
+
+/* Titres */
+.services-section h2 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.services-section hr {
+  width: 60px;
+  border-top: 3px solid #337aff;
+  margin: 20px auto;
+}
+
+/* Cartes */
 .card {
-  transition: transform 0.2s; /* Ajoute une animation lors du survol */
+  transition: transform 0.2s;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
 }
 
 .card:hover {
-  transform: scale(1.05); /* Agrandit la carte au survol */
+  transform: scale(1.05);
 }
 
+.card-body {
+  text-align: center;
+  color: #000;
+}
+
+/* Titres dans les cartes */
 .card-title {
-  font-weight: bold; /* Met en gras le titre */
-  color: #007bff; /* Change la couleur du titre */
-}
-
-.card-text {
-  color: #555; /* Change la couleur du texte de description */
-}
-
-.container {
-  background-color: #EEE; /* Ajoute un fond léger à la section */
-  padding: 20px; /* Ajoute un peu d'espace autour du contenu */
-  border-radius: 8px; /* Arrondit les coins du conteneur */
-}
-
-h2 {
-  color: #1e1e1e; /* Change la couleur du titre principal */
+  font-weight: 600;
+  font-size: 1.2rem;
 }

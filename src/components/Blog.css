@@ -1,12 +1,52 @@
-.card {
-    transition: transform 0.2s; /* Ajoute une transition pour l'effet de survol */
-}
-
-.card:hover {
-    transform: scale(1.05); /* Agrandit la carte au survol */
-}
-
-.card-img-top {
-    height: 200px; /* Fixe une hauteur pour les images */
-    object-fit: cover; /* Couvre le conteneur tout en gardant les proportions */
-}
+/* Bandeau image */
+.banner-image img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Section blog */
+  .blog-section {
+    background-color: #f6f6f6;
+    padding: 40px 0;
+  }
+  
+  /* Titres */
+  .blog-section h2 {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .blog-section hr {
+    width: 60px;
+    border-top: 3px solid #337aff;
+    margin: 20px auto;
+  }
+  
+  /* Cartes */
+  .card {
+    transition: transform 0.2s;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
