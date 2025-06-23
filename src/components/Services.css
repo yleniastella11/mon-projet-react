@@ -16,11 +16,11 @@
 }
 
 .container {
-  background-color: #f8f9fa; /* Ajoute un fond léger à la section */
+  background-color: #EEE; /* Ajoute un fond léger à la section */
   padding: 20px; /* Ajoute un peu d'espace autour du contenu */
   border-radius: 8px; /* Arrondit les coins du conteneur */
 }
 
 h2 {
-  color: #343a40; /* Change la couleur du titre principal */
+  color: #1e1e1e; /* Change la couleur du titre principal */
 }
