@@ -1,16 +1,30 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark"> {/* Changement de lg à md */}
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">John Doe</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button 
+          className="navbar-toggler" 
+          type="button" 
+          onClick={toggleMenu} 
+          aria-controls="navbarNav" 
+          aria-expanded={isOpen} 
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/presentation">Présentation</Link>

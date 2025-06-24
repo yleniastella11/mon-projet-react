@@ -1,33 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './Projects.css';
-import fond from '../assets/fond.jpg';
+import banner from '../assets/banner.jpg'; 
 import freshfood from '../assets/freshfood.png';
 import RA from '../assets/RA.png';
 import EBE from '../assets/EBE.png';
 
 function ProjectsComponent() {
-    const projets = [
+    const [projets] = useState([
         { title: 'Fresh Food', description: 'Site avec commande en ligne', technos: 'PHP et MySQL', image: freshfood },
         { title: 'Restaurant Akira', description: 'Site vitrine', technos: 'WordPress', image: RA },
         { title: 'Espace bien-être', description: 'Site vitrine pour un praticien de bien-être', technos: 'HTML/CSS', image: EBE },
-    ];
+    ]);
 
     return (
         <section className="projects-section">
-            {/* Bandeau image */}
+           
             <div className="banner-image">
-                <img src={fond} alt="bandeau" />
+                <img src={banner} alt="bandeau" />
             </div>
 
-            {/* Titre et sous-titre */}
+           
             <div className="text-center">
                 <h2>PORTFOLIO</h2>
                 <p className="text-muted">Voici quelques-unes de mes réalisations.</p>
                 <hr />
             </div>
 
-            {/* Les cartes */}
+         
             <div className="container mt-5">
                 <div className="row">
                     {projets.map((projet, index) => (

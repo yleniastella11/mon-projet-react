@@ -1,13 +1,13 @@
 .about-title {
     font-weight: bold;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #0d6efd;
     padding-bottom: 5px;
     margin-bottom: 20px;
   }
   
   .progress {
     height: 10px;
-    background-color: #e9ecef;
+    background-color: #EEE;
   }
   
   .progress-bar {

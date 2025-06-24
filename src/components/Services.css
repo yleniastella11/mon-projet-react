@@ -1,17 +1,14 @@
-/* Image bandeau */
 .banner-image img {
   width: 100%;
   max-height: 200px;
   object-fit: cover;
 }
 
-/* Section */
 .services-section {
-  background-color: #f6f6f6;
+  background-color: #EEE;
   padding: 40px 0;
 }
 
-/* Titres */
 .services-section h2 {
   font-weight: bold;
   margin-top: 20px;
@@ -30,7 +27,7 @@
   overflow: hidden;
   border: 1px solid #ddd;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  background-color: #fff;
+  background-color: #EEE;
 }
 
 .card:hover {
@@ -39,7 +36,7 @@
 
 .card-body {
   text-align: center;
-  color: #000;
+  color: #000000;
 }
 
 /* Titres dans les cartes */

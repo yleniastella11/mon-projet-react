@@ -1,19 +1,19 @@
 .navbar {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajoute une ombre à la barre de navigation */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .nav-link {
-    transition: color 0.3s; /* Ajoute une transition pour le changement de couleur */
+    transition: color 0.3s; 
 }
 
 .nav-link:hover {
-    color: #ffcc00; /* Change la couleur au survol */
+    color: #ffcc00; 
 }
 
 .navbar-brand {
-    font-weight: bold; /* Met en gras le nom de la marque */
+    font-weight: bold; 
 }
 
 .navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.1); /* Change la couleur de la bordure du bouton */
+    border-color: rgba(255, 255, 255, 0.1); 
 }
