@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Navbar from './components/Navbar';
 import Header from './components/Header';
@@ -9,14 +9,20 @@ import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Services from './components/Services';
 import Footer from './components/footer'; 
-import GitHubProfile from './components/GitHubProfile'; 
+import GitHubProfile from './components/GitHubProfile';
 
 function App() {
+  const location = useLocation();
+
+  const hideHeaderPaths = ['/projects', '/blog', '/services', '/contact'];
+
+  const shouldHideHeader = hideHeaderPaths.includes(location.pathname);
+
   return (
     <>
       <Navbar />
       <div className="container">
-        <Header />
+        {!shouldHideHeader && <Header />}
         <Routes>
           <Route path="/presentation" element={<Presentation />} />
           <Route path="/projects" element={<Projects />} />
@@ -32,5 +38,4 @@ function App() {
 }
 
 export default App;
-
 
