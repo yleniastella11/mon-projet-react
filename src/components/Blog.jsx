@@ -22,19 +22,16 @@ const articles = [
 const Blog = () => {
   return (
     <section className="blog-section">
-      {/* Bandeau image */}
       <div className="banner-image">
         <img src={banner} alt="bandeau" />
       </div>
 
-      {/* Titre */}
       <div className="text-center">
         <h2>MON BLOG</h2>
         <p className="text-muted">Retrouvez ici quelques articles sur le développement web.</p>
         <hr />
       </div>
 
-      {/* Articles */}
       <div className="container mt-5">
         <div className="row">
           {articles.map(article => (

@@ -15,17 +15,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 10px;
   }
   
   @media (max-width: 768px) {
     .hero-content h1 {
-      font-size: 1.5rem; /* Taille de police pour petits écrans */
+      font-size: 1.5rem; 
     }
   
     .hero-content h2 {
-      font-size: 1rem; /* Taille de police pour petits écrans */
+      font-size: 1rem; 
     }
   }
 

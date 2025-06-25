@@ -1,17 +1,13 @@
-/* Bandeau image */
 .banner-image img {
-    width: 100%;
-    max-height: 200px;
     object-fit: cover;
-  }
+    width: 100%;
+}
   
-  /* Section blog */
   .blog-section {
     background-color: #f6f6f6;
     padding: 40px 0;
   }
   
-  /* Titres */
   .blog-section h2 {
     font-weight: bold;
     margin-top: 20px;
@@ -23,7 +19,6 @@
     margin: 20px auto;
   }
   
-  /* Cartes */
   .card {
     transition: transform 0.2s;
     border-radius: 8px;
